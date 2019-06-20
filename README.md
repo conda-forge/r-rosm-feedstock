@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About r-rosm
 ============
 
@@ -11,15 +7,22 @@ Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: Download and plot Open Street Map <http://www.openstreetmap.org/>, Bing Maps <http://www.bing.com/maps> and other tiled map sources in a way  that works seamlessly with plotting from the 'sp' package. Use to create  high-resolution basemaps and add hillshade to vector-based maps.
+Summary: Download and plot Open Street Map <http://www.openstreetmap.org/>, Bing Maps <http://www.bing.com/maps> and other tiled map sources. Use to create  basemaps quickly and add hillshade to vector-based maps.
 
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-rosm-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-rosm-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2398&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rosm-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
