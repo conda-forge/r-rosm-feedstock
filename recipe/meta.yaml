@@ -1,4 +1,4 @@
-{% set version = '0.2.4' %}
+{% set version = "0.2.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rosm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rosm/rosm_{{ version }}.tar.gz
-  sha256: 185708b8458b8f75a13c9a3ff114d498f0a12bdb20a9768052206e578c648501
+  sha256: 07686580d235294293adf134d0d5283631be1f96d39ac7d6af232631e1f7c382
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
