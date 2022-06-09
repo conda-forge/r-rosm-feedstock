@@ -3,7 +3,7 @@ About r-rosm
 
 Home: https://github.com/paleolimbot/rosm
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rosm-feedstock/blob/main/LICENSE.txt)
 
