@@ -1,11 +1,11 @@
-About r-rosm
-============
+About r-rosm-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rosm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paleolimbot/rosm
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rosm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Download and plot Open Street Map <http://www.openstreetmap.org/>, Bing Maps <http://www.bing.com/maps> and other tiled map sources. Use to create  basemaps quickly and add hillshade to vector-based maps.
 
