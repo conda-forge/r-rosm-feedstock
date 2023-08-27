@@ -26,26 +26,22 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-abind
     - r-curl
+    - r-glue
     - r-jpeg
-    - r-plyr
     - r-png
-    - r-prettymapr
-    - r-rgdal
-    - r-rjson
-    - r-sp
+    - r-progress
+    - r-rlang
+    - r-wk
   run:
     - r-base
-    - r-abind
     - r-curl
+    - r-glue
     - r-jpeg
-    - r-plyr
     - r-png
-    - r-prettymapr
-    - r-rgdal
-    - r-rjson
-    - r-sp
+    - r-progress
+    - r-rlang
+    - r-wk
 
 test:
   commands:
