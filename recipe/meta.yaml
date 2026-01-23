@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rosm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rosm/rosm_{{ version }}.tar.gz
-  sha256: c3c1443af1206ec0d476740f34ea09ecac581599aa6b7377cc0362d088294e08
+  sha256: 982d404d2d318f92595d2fa08216edb66b9a475df16c72577e9416a5a1e638b6
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
